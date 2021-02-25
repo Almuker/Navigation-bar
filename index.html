@@ -39,17 +39,37 @@
         </div>
     </nav>
 
-    <div class="counter">
-        <p><span class="counter_item"></span></p>
+    <div class="wrap">
+        
+        <div class="counter">
+            <p><span class="counter_item"></span></p>
+        </div>
+        <div class="buttons">
+            <button class="increment">Add</button>
+            <button class="decrement">Delete</button>
+            <button class="async">Async</button>
+            <button class="double_increment">+2</button>
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+    
+    <div class="wrap">
+        <div class="randomizer">
+            <p class="title">Randomizer</p>
+            <p>Default random from 1 to 100</p>
+            <div>
+                <input placeholder="from" class="input_from">
+                <input placeholder="to" class="input_to">
+                <button class="random">Random</button>
+                <button class="random_reset">Reset</button>
+            </div>
+            <div>
+                <p>Random number: <span class="random_item"></span></p>
+            </div>
+        </div>
     </div>
 
 
-    <div class="buttons">
-        <button class="increment">Добавить</button>
-        <button class="decrement">Убрать</button>
-        <button class="async">Async</button>
-        <button class="reset">Reset</button>
-    </div>
 
     <script src="script.js"></script>
 </body>
