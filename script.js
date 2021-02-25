@@ -25,6 +25,8 @@ navSlide()
 const counter = document.querySelector('.counter_item')
 const increment = document.querySelector('.increment')
 const decrement = document.querySelector('.decrement')
+const async = document.querySelector('.async')
+const reset = document.querySelector('.reset')
 
 let state = 0
 
@@ -35,6 +37,18 @@ increment.addEventListener('click', () => {
 
 decrement.addEventListener('click', () => {
     state--
+    render()
+})
+
+async.addEventListener('click', () => {
+    setTimeout(() => {
+       state++
+       render() 
+    }, 2000);
+})
+
+reset.addEventListener('click', () => {
+    state = 0
     render()
 })
 

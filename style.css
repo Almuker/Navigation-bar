@@ -112,7 +112,7 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.dark_theme, .counter {
+.dark_theme {
     border: 1px solid #363836;
     display: flex;
     align-items: center;
@@ -127,14 +127,41 @@ nav {
     margin-left: 5px;
 }
 
-button {
-    margin-left: 5px;
-    padding: 5px;
-    width: 25px;
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: #363836;
 }
 
-.counter p {
-    margin-right: 5px;
-    font-size: 20px;
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 80px;
     font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.buttons button {
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border: 1px solid #363836;
+    outline: none;
+    color: white;
+    background-color: #363836;
 }
