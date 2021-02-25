@@ -4,17 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(https://wallpaperaccess.com/full/211836.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -123,13 +112,29 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.description {
+.dark_theme, .counter {
+    border: 1px solid #363836;
     display: flex;
+    align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.849);
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.dark_theme input {
+    margin-left: 5px;
+}
+
+button {
+    margin-left: 5px;
+    padding: 5px;
+    width: 25px;
+}
+
+.counter p {
+    margin-right: 5px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    margin-top: 300px;
-    width: 100%;
-    padding: 50px;
 }

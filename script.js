@@ -21,3 +21,24 @@ const navSlide = () => {
 
 }
 navSlide()
+
+const counter = document.querySelector('.counter_item')
+const increment = document.querySelector('.increment')
+const decrement = document.querySelector('.decrement')
+
+let state = 0
+
+increment.addEventListener('click', () => {
+    state++
+    render()
+})
+
+decrement.addEventListener('click', () => {
+    state--
+    render()
+})
+
+function render() {
+    counter.textContent = state
+}
+render()
