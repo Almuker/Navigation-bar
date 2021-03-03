@@ -89,3 +89,12 @@ function render() {
     randomItem.textContent = stateRandom
 }
 render()
+
+
+// New counter click on input
+const newCounter = document.getElementsByClassName('new_counter')
+document.addEventListener('click', function test(event) {
+    if (event.target != undefined) {
+        event.target.value++;
+      }
+})

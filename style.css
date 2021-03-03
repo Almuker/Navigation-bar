@@ -152,7 +152,7 @@ nav {
 .wrap {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .randomizer {
@@ -192,4 +192,25 @@ nav {
     background-color: #363836;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.new_counter_p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.new_counter {
+    padding: 10px;
+    margin: 0 5px 0 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #363836;
+    outline: none;
+    color: white;
+    background-color: #363836;
+    cursor: pointer;
+    width: 40px;
 }
