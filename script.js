@@ -94,7 +94,7 @@ render()
 // New counter click on input
 const newCounter = document.getElementsByClassName('new_counter')
 document.addEventListener('click', function test(event) {
-    if (event.target != undefined) {
+    if (event.target.dataset.test != undefined) {
         event.target.value++;
       }
 })
